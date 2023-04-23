@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'League Spartan';
+}
+
+.reviews {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.left {
+    width: auto;
+}
+
+.left h1 {
+    width: 390px;
+    font-size: 60px;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 27px;
+}
+
+.left p {
+    width: 430px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.rating {
+    width: 430px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px 40px 20px 30px;
+    background-color: hsl(303, 10%, 53%, 0.1);
+    border-radius: 7px;
+}
+
+.rating p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.rating img {
+    margin-right: 10px;
+}
+
+.rating img:last-of-type {
+    margin-right: 30px;
+}
+
+.rating2 {
+    margin-left: 40px;
+}
+
+.rating3 {
+    margin-left: 80px;
+}
+
+.buyers {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    width: 385px;
+    height: 30%;
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 35px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.card:last-of-type {
+    margin-right: 0px;
+}
+
+.card2 {
+    margin-top: 20px;
+}
+
+.card3 {
+    margin-top: 40px;
+}
+
+.card p {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.person img {
+    width: 46px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.person h3 {
+    color: white;
+    margin-bottom: 2px;
+}
+
+.person p {
+    color: hsl(333, 80%, 67%);
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 1110px) {
+
+
+    .left {
+        margin-top: 40px;
+    }
+
+    .left h1 {
+        width: 310px;
+        font-size: 40px;
+        color: hsl(300, 43%, 22%);
+        margin-bottom: 27px;
+    }
+
+    .left p {
+        width: 310px;
+        color: hsl(303, 10%, 53%);
+        font-weight: 500;
+        line-height: 24px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .rating {
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 20px 5px 20px 5px;
+        background-color: hsl(303, 10%, 53%, 0.1);
+        border-radius: 7px;
+    }
+
+    .rating p {
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .rating img {
+        margin-right: 7px;
+        margin-bottom: 10px;
+    }
+
+    .rating img:last-of-type {
+    }
+
+    .rating2 {
+        margin-left: 0;
+    }
+
+    .rating3 {
+        margin-left: 0;
+    }
+
+
+    .reviews {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+
+    .buyers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        width: 240px;
+        margin-right: 0;
+        margin-bottom: 15px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .card:last-of-type {
+        margin-right: 0;
+    }
+
+    .card2 {
+        margin-top: 0;
+    }
+
+    .card3 {
+        margin-top: 0;
+    }
+
+}
