@@ -175,6 +175,7 @@ body {
     }
 
     .rating img:last-of-type {
+	margin-right: 0px;
     }
 
     .rating2 {
